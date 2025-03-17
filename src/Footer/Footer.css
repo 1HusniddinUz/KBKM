@@ -1,0 +1,31 @@
+#Footer
+{
+    width: 100%;
+    background-color: #C90B01;
+}
+#Footer .container
+{
+    width: 90%;
+    height: 10vh;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#Footer .container h5 span
+{
+    color: #FFFFFF;
+    font-size: 1rem;
+}
+#Footer .container #Footer-social
+{
+    width: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+#Footer .container #Footer-social a i 
+{
+    color: #FFFFFF;
+    font-size: 2rem;
+}
+

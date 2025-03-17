@@ -1,0 +1,106 @@
+/* Global Stil */
+#HeaderMain {
+  position: relative;
+  z-index: 3; /* Video fon ustida bo‘lishi uchun */
+  width: 100%;
+}
+#Header #Header-main-top {
+  width: 90%;
+  margin: 0 auto;
+}
+#Header #Header-main-top #Header-main-top-tBox {
+  width: 70%;
+  margin: 22vh auto;
+}
+#Header #Header-main-top #Header-main-top-tBox h2 {
+  font-size: 3rem;
+  color: #ffffff;
+  font-weight: bold;
+}
+#Header #Header-main-top #Header-main-top-tBox #Header-main-top-tSbox {
+  margin-top: 10%;
+  align-items: center;
+  justify-content: space-between;
+  width: 280px;
+  display: flex;
+}
+#Header #Header-main-top #Header-main-top-tBox #Header-main-top-tSbox button {
+  width: 80px;
+  height: 80px;
+  background: transparent;
+  border: none;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+}
+#Header #Header-main-top #Header-main-top-tBox #Header-main-top-tSbox button i {
+  margin: 0;
+  font-size: 4rem;
+  border: -1px solid #426b37;
+  border-radius: 100%;
+  /* background-color: white; */
+  overflow: hidden;
+  color: #C90B01;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+}
+
+#Header-main-top-tBox #Header-main-top-tSbox p {
+  color: #ffffff;
+}
+
+#HeaderMainProducts
+{
+  width: 100%;
+  overflow: hidden;
+}
+/* Slider Va Cardlar */
+.product-card {
+  box-sizing: border-box;
+  overflow: hidden;
+  outline: none !important;
+}
+
+.product-card-content {
+  width: 80%;
+  height: 130px;
+  z-index: 10;
+  background: #990302;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border-radius: 8px; */
+  outline: none !important;
+}
+.product-card-content::before,
+.product-card-content::after {
+    content: none !important;
+    display: none !important;
+}
+/* .product-card-content p {
+  color: white;
+  margin-top: 10px;
+  font-size: 1.2rem;
+} */
+
+.product-link a {
+  width: 350px;
+  justify-content: space-between;
+  display: flex;
+  text-decoration: none;
+  align-items: center;
+}
+
+.product-link a h3 {
+  margin: 0;
+  color: white; 
+}
+
+.product-link a i {
+  color: white;
+}
