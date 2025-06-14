@@ -54,7 +54,9 @@
     align-content: center;
     border-radius: 12px;
     position: absolute;
-    background-color: rgba(0 , 0, 0 , 0.5);
+    box-shadow: 0 4px 12px rgba(255, 255, 255, 0.1),
+    0 0 0 2px rgba(255, 255, 255, 0.5) inset;
+    backdrop-filter: blur(8px);
 }
 .product:hover {
     cursor: pointer;
@@ -63,7 +65,7 @@
 }
 .product:hover .product_overlay
 {
-    transition: 0.5s ease-in-out;
+    transition: 1s ease-in-out;
     display: block;
 }
 .product:hover .product_overlay:hover button

@@ -8,7 +8,7 @@ const products = [
   { id: 1, name: 'Logotip | Brending xizmati', description: 'Bepul consulting xizmatlar', link: 'https://t.me/buxoro_tadbirkorlar_klubi' },
   { id: 2, name: 'Korxona saytini yaratish', description: 'Xizmatlar', link: 'https://t.me/buxoro_tadbirkorlar_klubi' },
   { id: 3, name: 'Onlayn bozorlar orqali sotish', description: 'Bepul consulting xizmatlar', link: 'https://t.me/buxoro_tadbirkorlar_klubi' },
-  { id: 4, name: 'Telegram BOT', description: 'Bepul consulting xizmatlar', link: 'https://t.me/buxoro_tadbirkorlar_klubi' },
+  { id: 4, name: 'Telegram BOT ', description: 'Bepul consulting xizmatlar', link: 'https://t.me/buxoro_tadbirkorlar_klubi' },
   { id: 6, name: 'Sog\'lom buxgalteriyani yuritish kurslari', description: 'Bepul consulting xizmatlar', link: 'https://t.me/buxoro_tadbirkorlar_klubi' },
 
 ];
