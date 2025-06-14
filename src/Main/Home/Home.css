@@ -22,7 +22,6 @@
 
 .main_product_card {
     width: 100%;
-    border: 1px solid red;
     display: flex;
     flex-wrap: wrap;
     margin: 0;
@@ -199,7 +198,7 @@
     margin: 20px 0px;
     color: black;
     text-align: center;
-    font-weight: bold; 
+    font-weight: bold;
 }
 #Home #Home-main-top #Home-main-top-info #Home-main-tInfo-rBox p
 {
@@ -263,7 +262,7 @@
     cursor: pointer;
     transition: 0.7s;
     color: black;
-} 
+}
 #Contact #Contact-main-card #Contact-main-lCard #Contact-main-sCard #Contact-main-sRCard
 {
     width: 300px;
