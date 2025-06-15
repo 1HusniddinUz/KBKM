@@ -1,0 +1,339 @@
+#Home {
+
+    position: relative;
+    margin-top: 80px; /* Navbar balandligiga teng qiling */
+    z-index: 1; /* Navbardan past bo‘lishi uchun */
+}
+#Home #Home-main-top
+{
+    width: 90%;
+    margin: 100px auto;
+}
+
+/* *  MAIN TOP PRODUCTS START */
+
+#Home #Home-main-top  #Home-main-top-products
+{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main_product_card {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 40px;
+    z-index: 2;
+    gap: 40px;
+    overflow: hidden;
+    justify-content: center;
+}
+
+
+.product {
+    position: relative;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    padding: 16px;
+    width: 45%;
+    text-align: center;
+    transition: transform 0.5s ease-in-out;
+}
+.product .product_overlay
+{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    justify-content: center;
+    align-content: center;
+    border-radius: 12px;
+    position: absolute;
+    box-shadow: 0 4px 12px rgba(255, 255, 255, 0.1),
+    0 0 0 2px rgba(255, 255, 255, 0.5) inset;
+    backdrop-filter: blur(8px);
+}
+.product:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+
+}
+.product:hover .product_overlay
+{
+    transition: 1s ease-in-out;
+    display: block;
+}
+.product:hover .product_overlay:hover button
+{
+    transform: scale(0.99);
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 8px 24px rgba(255, 255, 255, 0.2),
+    0 0 0 2px rgba(255, 255, 255, 0.2) inset;
+    transform: translateY(-2px);
+    border-color: #fff;
+}
+.product_overlay a button
+{
+    padding: 10px 102px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    border-radius: 999px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgba(255, 255, 255, 0.1),
+    0 0 0 2px rgba(255, 255, 255, 0.1) inset;
+    backdrop-filter: blur(8px);
+}
+.product_overlay a button:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 8px 24px rgba(255, 255, 255, 0.2),
+    0 0 0 2px rgba(255, 255, 255, 0.2) inset;
+    transform: translateY(-2px);
+    border-color: #fff;
+}
+.product_overlay a button:active {
+    box-shadow: 0 2px 6px rgba(255, 255, 255, 0.1);
+}
+
+
+/*.img_overlay*/
+/*{*/
+/*    position: absolute;*/
+/*    top: 0;*/
+/*    left: 0;*/
+/*    width: 100%;*/
+
+/*}*/
+.product-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 12px;
+}
+
+.product-title {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 6px;
+}
+
+.product-description {
+    font-size: 0.95rem;
+    color: #666;
+}
+
+#Home #Home-main-top  #Home-main-top-products #Home-top-product #Home-top-productBG
+{
+    width: 90%;
+    height: 90%;
+    margin: 20px auto;
+    background-size: cover;
+    background-position: center;
+    background-image: url("../../media/cards1.jpg");
+    z-index: 0;
+}
+#Home #Home-main-top  #Home-main-top-products #Home-top-product #Home-top-productBG #Home-top-productOp
+{
+    width: 100%;
+    height: 100%;
+    background: #00000075;
+}
+#Home #Home-main-top  #Home-main-top-products #Home-top-product h3
+{
+    position: absolute;
+    top: 75%;
+    left: 22%;
+    color: #FFFFFF;
+}
+
+/* *  MAIN TOP PRODUCTS END */
+
+
+/* *  MAIN TOP INFO START */
+
+#Home #Home-main-top #Home-main-top-info
+{
+    width: 70%;
+    position: relative;
+    margin: 100px auto;
+    display: flex;
+    align-items: center;
+}
+#Home #Home-main-top #Home-main-top-info #Home-main-tInfo-lBox
+{
+    width: 40%;
+    height: 600px;
+}
+#Home #Home-main-top #Home-main-top-info #Home-main-tInfo-lBox img
+{
+    box-shadow: 7px 7px 7px #c3b8b9;
+    top: 120px;
+    left: 20px;
+    background-size: cover;
+    background-position: center;
+    z-index: 12;
+    position: absolute;
+    width: 520px;
+    height: 400px;
+}
+
+#Home #Home-main-top #Home-main-top-info #Home-main-tInfo-rBox
+{
+    z-index: 0;
+    background: linear-gradient(#FDEFF0 0,#FFFDFD 100% );
+    box-shadow: 7px 7px 7px #e7dbdc;
+    padding: 0px 40px 10px 100px;
+    width: 60%;
+}
+#Home #Home-main-top #Home-main-top-info #Home-main-tInfo-rBox h2
+{
+    margin: 20px 0px;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+}
+#Home #Home-main-top #Home-main-top-info #Home-main-tInfo-rBox p
+{
+    font-size: 1rem;
+}
+#Home #Home-main-top #Home-main-top-info #Home-main-tInfo-rBox ul li
+{
+    list-style:square;
+}
+/* *  MAIN TOP INFO END */
+
+
+/* *  MAIN CONTACT START */
+
+#Contact #Contact-main
+{
+    background: white;
+}
+#Contact #Contact-main-top
+{
+    width: 100%;
+    text-align: center;
+}
+#Contact #Contact-main-top h1
+{
+    font-size: 1.8rem;
+    color: black;
+    line-height: 50px;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+#Contact #Contact-main-top p
+{
+    color: #979595;
+}
+#Contact #Contact-main-card
+{
+    margin: 20px auto;
+    padding-top: 40px;
+    width: 80%;
+    display: flex;
+}
+#Contact #Contact-main-card #Contact-main-lCard
+{
+    width: 35%;
+}
+#Contact #Contact-main-card #Contact-main-lCard #Contact-main-sCard
+{
+    width: 70%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+}
+#Contact #Contact-main .container #Contact-main-card #Contact-main-lCard #Contact-main-sCard #Contact-main-sLCard i
+{
+    color: black;
+    font-size: 1.4rem;
+}
+#Contact #Contact-main-card #Contact-main-lCard #Contact-main-sCard #Contact-main-sLCard i:hover
+{
+    cursor: pointer;
+    transition: 0.7s;
+    color: black;
+}
+#Contact #Contact-main-card #Contact-main-lCard #Contact-main-sCard #Contact-main-sRCard
+{
+    width: 300px;
+    text-align: start;
+}
+#Contact #Contact-main-card #Contact-main-lCard #Contact-main-sCard #Contact-main-sRCard h3
+{
+    font-weight: 400;
+    margin-bottom: 5px;
+    color: black;
+}
+#Contact #Contact-main-card #Contact-main-lCard #Contact-main-sCard #Contact-main-sRCard p > a
+{
+    color:black;
+    text-decoration: underline;
+}
+#Contact #Contact-main-card #Contact-main-rCard
+{
+    margin: 0 auto;
+    width: 55%;
+}
+#Contact #Contact-main-card #Contact-main-rCard form
+{
+    width: 95%;
+    margin: 20px auto;
+}
+#Contact #Contact-main-card #Contact-main-rCard  form > input
+{
+    border-radius: 50px;
+    border: 2px solid black;
+    height: 50px;
+    color: black;
+    font-weight: 600;
+    background: transparent;
+    padding: 10px 0px 10px 30px;
+    width: 95%;
+}
+
+#Contact #Contact-main-card #Contact-main-rCard h3
+{
+    font-weight: 400;
+    margin: 10px;
+    color: black;
+}
+#Contact #Contact-main-card #Contact-main-rCard button
+{
+    margin: 30px;
+    background-color: #C90B01;
+    border: 2px solid #C90B01;
+    color: white; 
+    box-shadow: 0px 0px 7px 7px #e73c3f8a;
+    letter-spacing: 2px;
+    width: 222px;
+    font-weight: 600;
+    font-size: 1rem;
+    height: 74px;  
+}
+#Contact #Contact-main-card #Contact-main-rCard  button:hover
+{
+    cursor: pointer;
+    color: #C90B01;
+    transform: scale(0.93);
+    background-color:transparent    ;
+    box-shadow: 0px 0px 7px 7px #C90B01;
+    transition: 0.7s ;
+    -webkit-transform: scale(0.93);
+    -moz-transform: scale(0.93);
+    -ms-transform: scale(0.93);
+    -o-transform: scale(0.93);
+}
+
+/* *  MAIN CONTACT END */
