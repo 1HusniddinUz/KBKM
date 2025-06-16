@@ -41,6 +41,7 @@ const Home = () =>{
 
         <div id="Home-main-top-products">
             <div className="done_works">
+                <h1>2025 yildagi <br/> <strong>so'nggi loyihalarimiz</strong></h1>
                 <div className="main_product_card">
                         {products.map((item, index) => (
                             <div className="product" key={index}>

@@ -19,6 +19,20 @@
     display: flex;
     justify-content: space-between;
 }
+#Home #Home-main-top  #Home-main-top-products .done_works
+{
+    width: 100%;
+    text-align: center;
+}
+#Home #Home-main-top  #Home-main-top-products .done_works h1
+{
+    text-transform: uppercase;
+    font-size: 3em;
+}
+#Home #Home-main-top  #Home-main-top-products .done_works h1 strong
+{
+    font-weight: 500;
+}
 
 .main_product_card {
     width: 100%;
