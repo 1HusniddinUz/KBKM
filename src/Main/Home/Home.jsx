@@ -115,6 +115,7 @@ const Home = () =>{
                                 <p>
                                 Mobile: <a href="tel: +998973024500">+998(97) 302-45-00</a> <br />
                                 Office:<a href="tel: +998553023566">+998(55) 302-35-66</a><br />
+                                Telegram BOT : <a href="https://t.me/buxoro_tadbirkorlar_klubi">KBKM BOT</a>
                                 </p>
                             </div>
                         </div>
