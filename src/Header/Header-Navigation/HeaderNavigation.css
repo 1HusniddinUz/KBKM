@@ -18,7 +18,6 @@
 #Header #Header-navigation .container
 {
     width: 90%;
-    z-index: 1;
     margin: 0 auto;
     display: flex;
     height: 10vh;
@@ -30,6 +29,20 @@
 #Header #Header-navigation .container #Header-logo
 {
     width: 30%;
+}
+#Header #Header-navigation .container #Header-logo a
+{
+    text-transform: capitalize;
+    color: white;
+    gap: 20px;
+    font-weight: 500;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+}
+#Header #Header-navigation .container #Header-logo a img
+{
+    height: 70px;
 }
 #Header #Header-navigation .container #Header-nav
 {
@@ -51,7 +64,9 @@
 }
 #Header #Header-navigation .container #Header-contact p
 {
-    color: #aaa9a9;
+    color: #ff0301;
+    font-weight: 500;
+    letter-spacing: 1px;
 }
 #Header #Header-navigation .container #Header-contact b a
 {

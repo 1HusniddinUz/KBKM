@@ -48,7 +48,7 @@ const Home = () =>{
                                 <div className="product_overlay">
                                     <a href={item.link} target="_blank" rel="noopener noreferrer"><button>Saytni ko'rish</button></a>
                                 </div>
-                                <img src={item.image} alt={item.name} className="product-image" />
+                                <img src={item.image} alt={item.name} loading="lazy" className="product-image" />
                                 <h3 className="product-title">{item.name}</h3>
                                 <p className="product-description">{item.description}</p>
 
