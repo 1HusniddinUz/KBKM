@@ -61,7 +61,7 @@ const HeaderMain = () => {
           <h2>BIZNESINGIZNI BIZ BILAN <br /> RIVOJLANTIRING</h2>
           <div id="Header-main-top-tSbox">
             <button><i className="fa-sharp fa-solid fa-circle-play"></i></button>
-            <p>Посмотрите видео <br /> о нашем клубе</p>
+            <p>Klubimiz haqida videoni <br/> tomosha qiling</p>
           </div>
         </div>
       </div>
