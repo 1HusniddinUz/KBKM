@@ -23,17 +23,30 @@
     display: flex;
     height: 10vh;
     align-items: center;
-    justify-content: space-between;
-
+    justify-content: space-between; 
 }
 
 #Header #Header-navigation .container #Header-logo
 {
+    box-sizing: border-box;
     width: 30%;
+}
+#Header #Header-navigation .container #Header-logo a
+{
+    display: flex;
+    gap: 20px;
+    width: 70%;
+    align-items: center;
+    color: white;
+    font-size: 1.3rem;
+}
+#Header #Header-navigation .container #Header-logo a img
+{
+    width: 100px;
 }
 #Header #Header-navigation .container #Header-nav
 {
-    width: 30%;
+    width: 40%;
 }
 #Header #Header-navigation .container #Header-nav ul
 {
@@ -47,11 +60,13 @@
 }
 #Header #Header-navigation .container #Header-contact
 {
-    width: 30%;
+    width: 20%;
+    text-align: end;
 }
 #Header #Header-navigation .container #Header-contact p
 {
-    color: #aaa9a9;
+    color: #ff0d00;
+    font-weight: 500;
 }
 #Header #Header-navigation .container #Header-contact b a
 {

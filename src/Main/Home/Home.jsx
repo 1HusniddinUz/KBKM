@@ -4,6 +4,7 @@ import RayPower from "../../assets/RAY POWER.png"
 import YummyBerry from "../../assets/yummyberry.png"
 import HhEcoCups from "../../assets/hh-ecocups.png"
 import RevmoGloves from "../../assets/revmo-gloves.png"
+import AboutCompany from "../../media/About.jpg"
 
 const Home = () =>{
     const products = [
@@ -66,7 +67,7 @@ const Home = () =>{
         <div id="Home-main-top-info">
             <div id="Home-main-tInfo-lBox">
                 {/* Image joylashadi  */}
-                <img src="https://previews.dropbox.com/p/thumb/ACjc_2zol1QMqwVAG6-EiKsNjLO2BEw5sNeuHh3VOLjnw3vUsDjaMIwf93OqZpNdNb6DXL0VKlJOiPoKCRJ-f_Y88rEEeAfZRLjildaXub2xTTG9PaXh0h1PwxawAcTydUjOglajAaTUfY_H7LA2lwG6XuN0Ajbo19BNQhRAkhiyo7ONlX6uZBAz4AHXNuJEk6lfaw6tb0MyJFxrNgvHAHeC_hyleuhER0zd-1t1j1aJSPhHN673ol9HHhck_hgPAf-MpNdQT_FAbAqVoPqMOMANK9LbmJ6uYcW7NPXuGlHAmTUrhv2XHVv6fbjXfpJaa4ZDuWmQwW0I9lcy7r8__7HD/p.jpeg?is_prewarmed=true" alt="About Image" />
+                <img src={AboutCompany} alt="About Image" />
             </div>
             <div id="Home-main-tInfo-rBox">
                 <h2>BIZ HAQIMIZDA</h2>

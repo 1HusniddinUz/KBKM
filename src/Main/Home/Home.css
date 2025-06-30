@@ -177,14 +177,12 @@
 #Home #Home-main-top #Home-main-top-info #Home-main-tInfo-lBox img
 {
     box-shadow: 7px 7px 7px #c3b8b9;
-    top: 120px;
-    left: 20px;
+    left: 60px;
     background-size: cover;
     background-position: center;
     z-index: 12;
     position: absolute;
-    width: 520px;
-    height: 400px;
+    height: 600px;
 }
 
 #Home #Home-main-top #Home-main-top-info #Home-main-tInfo-rBox

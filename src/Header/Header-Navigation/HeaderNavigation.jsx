@@ -31,14 +31,13 @@ const HeaderNavigation = () => {
     <div id="Header-navigation">
       <div className="container">
         <div id="Header-logo">
-          <img src="https://kbrj.uz/images/logo_black.png" alt="Company logo" />
           <a href="/"><img src={Logo} alt="Company logo" loading="lazy" />
             Kichik biznesga <br/> ko'maklashish markazi
           </a>
         </div>
         <div id="Header-nav">
           <ul>
-            <li><a href="#Header">Bosh sahifa</a></li>
+            <li><a href="/">Bosh sahifa</a></li>
             <li><a href="#Home-main-top-products">Servislar</a></li>
             <li><a href="#HeaderMainProducts">Xizmatlar</a></li>
             <li><a href="#Home-main-top-info">Biz haqimizda</a></li>
