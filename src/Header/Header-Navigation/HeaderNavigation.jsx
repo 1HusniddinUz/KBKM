@@ -38,8 +38,8 @@ const HeaderNavigation = () => {
         <div id="Header-nav">
           <ul>
             <li><a href="/">Bosh sahifa</a></li>
-            <li><a href="#Home-main-top-products">Servislar</a></li>
             <li><a href="#HeaderMainProducts">Xizmatlar</a></li>
+            <li><a href="#Home-main-top-products">Loyihalar</a></li>
             <li><a href="#Home-main-top-info">Biz haqimizda</a></li>
             <li><a href="#Contact">Bo'glanish</a></li>
           </ul>
