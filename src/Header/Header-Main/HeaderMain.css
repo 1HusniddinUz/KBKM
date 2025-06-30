@@ -55,8 +55,24 @@
 
 #HeaderMainProducts
 {
+  margin-top: -40px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
   width: 100%;
   overflow: hidden;
+  text-align: center;
+}
+#HeaderMainProducts h2 {
+  color: #ffffff;
+  text-shadow:
+          0 0 4px rgba(255, 255, 255, 1),
+          0 0 5px rgba(255, 255, 255, 0.3);
+  font-weight: 700;
+  font-size: 2rem;
+  background: none;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
 }
 /* Slider Va Cardlar */
 .product-card {
@@ -98,7 +114,7 @@
 
 .product-link a h3 {
   margin: 0;
-  color: white; 
+  color: white;
 }
 
 .product-link a i {

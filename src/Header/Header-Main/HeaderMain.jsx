@@ -45,6 +45,9 @@ const HeaderMain = () => {
           </div>
         </div>
         <div id="HeaderMainProducts">
+
+          <h2>Xizmatlar To'plami</h2>
+
           <Slider {...settings}>
             {products.map(product => (
                 <div key={product.id} className="product-card">
