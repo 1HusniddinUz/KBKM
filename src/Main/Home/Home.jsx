@@ -70,18 +70,18 @@ const Home = () =>{
                 <img src={AboutCompany} alt="About Image" />
             </div>
             <div id="Home-main-tInfo-rBox">
-                <h2>BIZ HAQIMIZDA</h2>
-
-                <p>
-                “Kichik biznesni rivojlantirish jamg‘armasi” Masʼuliyati cheklangan  <br /> jamiyati tijorat tashkiloti bo‘lib, O‘zbekiston Respublikasi Prezidentining <br /> “O‘zbekiston Respublikasi Prezidentining  tadbirkorlar bilan 2023-yildagi  ochiq <br /> muloqotida belgilangan vazifalarni amalga oshirish chora-tadbirlari to‘g‘risida” <br />2023-yil 4-sentyabrdagi PQ-292-son va “Kichik biznesni rivojlantirishni<br /> moliyaviy va institutsional qo‘llab-quvvatlash chora-tadbirlari to‘g‘risida” 2023-yil 14-sentyabrdagi<br /> PQ-306-son qarorlariga muvofiq, “Biznesni rivojlantirish banki”<br /> Aksiyadorlik tijorat bank taʼsischiligida<br /> Masʼuliyati cheklangan jamiyat tashkiliy-huquqiy shaklida tashkil etilgan.
-                </p>
-                    <br />
-                <h4><u>Kichik biznesni rivojlantirish jamg'armasi:</u></h4> <br />
+                <h2>Kichik biznesga ko'maklashish markazi sizga taklif qiladi:</h2>
+                
+                <br />
                 <ul>
-                    <li>hududlarning iqtisodiy salohiyati, tadbirkorlikning rivojlanganlik darajasi va boshqa mezonlardan <br /> kelib chiqib, markazlarning dastlabki ustav kapitalini shakllantiradi;</li>
-                    <li>Jamg‘arma va markazlar faoliyatining institutsional va moliyaviy salohiyatini oshirish maqsadida <br /> xalqaro moliya institutlari va boshqa tashkilotlarning ekspertlari, kreditlari, <br /> investitsiyalari va texnik ko‘maklarini jalb qiladi;</li>
-                    <li>Dastur doirasida markazlarning faoliyatini tashkil qilishni metodologik jihatdan qo‘llab-quvvatlaydi;</li>
-                    <li>Biznesni rivojlantirish banki va markazlarga yuklatilgan vazifalarni samarali amalga <br /> oshirishni tashkil etish uchun muvofiqlashtiruvchi va bog‘lovchi bo‘g‘in vazifasini bajaradi;</li>
+                    <li>Brending</li>
+                    <li>Korxona saytini yaratish</li>
+                    <li>Onlayn bozorlarda Market Place ochish va yuritish</li>
+                    <li>Ijtimoiy tarmoqlar orqali sotish</li>
+                    <li>Google/Yandex reklama </li>
+                    <li>Sog'lom buxgalteriya yuritish kurslari  </li>
+                    <li>Korxona buxgalteriyasini yuritish</li>
+                    <li>Muvaffaqqiyatli biznes yaratishda zamonaviy bilimlar</li>
                 </ul>
             </div>
         </div>

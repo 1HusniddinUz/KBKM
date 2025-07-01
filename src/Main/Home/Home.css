@@ -192,6 +192,8 @@
     box-shadow: 7px 7px 7px #e7dbdc;
     padding: 0px 40px 10px 100px;
     width: 60%;
+    height: 70vh;
+    align-content: center;
 }
 #Home #Home-main-top #Home-main-top-info #Home-main-tInfo-rBox h2
 {

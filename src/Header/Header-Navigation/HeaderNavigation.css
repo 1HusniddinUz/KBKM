@@ -1,74 +1,140 @@
 #Header-navigation {
-    position: relative; /* Default holat */
-    width: 100%;
-    background-color: transparent;
-    transition: all 0.3s ease;
-    z-index: 1000; /* Navbar boshqa elementlardan ustun bo‘lishi uchun */
+  position: relative;
+  width: 100%;
+  background-color: transparent;
+  transition: all 0.3s ease;
+  z-index: 1000;
 }
 
-/* #Header-navigation.sticky {
+#Header #Header-navigation .container {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  height: 10vh;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+#Header-logo {
+  width: 30%;
+}
+
+#Header-logo a {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  color: white;
+  font-size: 1.3rem;
+}
+
+#Header-logo a img {
+  width: 100px;
+}
+
+/* Burger */
+#burger {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+  z-index: 9999;
+}
+
+#burger span {
+  display: block;
+  width: 25px;
+  height: 3px;
+  background: #fff;
+  transition: 0.3s;
+}
+
+#burger.open span:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+#burger.open span:nth-child(2) {
+  opacity: 0;
+}
+#burger.open span:nth-child(3) {
+  transform: rotate(-45deg) translate(6px, -6px);
+}
+
+#Header-nav {
+  width: 40%;
+  transition: all 0.3s ease;
+}
+
+#Header-nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#Header-nav ul li a {
+  color: #ffffff;
+}
+
+/* Contact */
+#Header-contact {
+  width: 20%;
+  text-align: end;
+}
+
+#Header-contact p {
+  color: #ff0d00;
+  font-weight: 500;
+}
+
+#Header-contact b a {
+  color: #ffffff;
+}
+
+/* Responsive styles */
+@media (max-width: 1024px) {
+  #burger {
+    display: flex;
+  }
+  #Header-navigation.sticky {
     position: fixed;
     top: 0;
     left: 0;
+    background-color: rgba(0, 0, 0, 0.95);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  #Header-nav {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    height: 100vh;
+    justify-content: center;
+    align-content: center;
     width: 100%;
-    z-index: 9999;
-    background-color: rgba(51, 51, 51, 0.9);
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-} */
-#Header #Header-navigation .container
-{
-    width: 90%;
-    z-index: 1;
-    margin: 0 auto;
-    display: flex;
-    height: 10vh;
-    align-items: center;
-    justify-content: space-between; 
-}
+    background: #000;
+    max-height: 0;
+    overflow: hidden;
+    flex-direction: column;
+    transition: max-height 0.3s ease;
+  }
 
-#Header #Header-navigation .container #Header-logo
-{
-    box-sizing: border-box;
-    width: 30%;
-}
-#Header #Header-navigation .container #Header-logo a
-{
-    display: flex;
-    gap: 20px;
-    width: 70%;
-    align-items: center;
-    color: white;
-    font-size: 1.3rem;
-}
-#Header #Header-navigation .container #Header-logo a img
-{
-    width: 100px;
-}
-#Header #Header-navigation .container #Header-nav
-{
-    width: 40%;
-}
-#Header #Header-navigation .container #Header-nav ul
-{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-#Header #Header-navigation .container #Header-nav ul li a
-{
-    color: #FFFFFF;
-}
-#Header #Header-navigation .container #Header-contact
-{
-    width: 20%;
-    text-align: end;
-}
-#Header #Header-navigation .container #Header-contact p
-{
-    color: #ff0d00;
-    font-weight: 500;
-}
-#Header #Header-navigation .container #Header-contact b a
-{
-    color: #FFFFFF;
+  #Header-nav.show {
+    max-height: 100vh;
+    padding: 20px 0;
+  }
+
+  #Header-nav ul {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  #Header-contact {
+    display: none;
+  }
+
+  #Header-logo {
+    width: auto;
+  }
+
+  #Header-logo a {
+    font-size: 1rem;
+  }
 }
