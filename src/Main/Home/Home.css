@@ -208,7 +208,9 @@
 }
 #Home #Home-main-top #Home-main-top-info #Home-main-tInfo-rBox ul li
 {
-    list-style:square;
+    list-style: none;
+    letter-spacing: 1px;
+    line-height: 1.8;
 }
 /* *  MAIN TOP INFO END */
 

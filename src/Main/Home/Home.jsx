@@ -74,14 +74,16 @@ const Home = () =>{
                 
                 <br />
                 <ul>
-                    <li>Brending</li>
-                    <li>Korxona saytini yaratish</li>
-                    <li>Onlayn bozorlarda Market Place ochish va yuritish</li>
-                    <li>Ijtimoiy tarmoqlar orqali sotish</li>
-                    <li>Google/Yandex reklama </li>
-                    <li>Sog'lom buxgalteriya yuritish kurslari  </li>
-                    <li>Korxona buxgalteriyasini yuritish</li>
-                    <li>Muvaffaqqiyatli biznes yaratishda zamonaviy bilimlar</li>
+                    <li><i class="fas fa-paint-brush"> Brending</i></li>
+                    <li><i class="fas fa-laptop-code"> Korxona saytini yaratish</i></li>
+                    <li><i class="fas fa-store"> Onlayn bozorlarda Market Place ochish va yuritish</i></li>
+                    <li><i class="fas fa-share-alt"> Ijtimoiy tarmoqlar orqali sotish</i></li>
+                    <li><i class="fas fa-ad"> Google/Yandex reklama </i></li>
+                    <li><i class="fas fa-book"> Buxgalteriya kurslari</i></li>
+                    <li><i class="fas fa-file-invoice"> Korxona buxgalteriyasini yuritish</i></li>
+                    <li><i class="fas fa-lightbulb"> Muvaffaqqiyatli biznes yaratishda zamonaviy bilimlar</i></li>
+                    <li><i class="fas fa-chart-line"> Biznesda sotuvlarni oshirish</i></li>
+                    <li><i class="fas fa-cogs"> Biznes boshqaruvi va strategiya yaratish kurslari</i></li>
                 </ul>
             </div>
         </div>
