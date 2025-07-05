@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://kbkm.vercel.app/sitemap.xml

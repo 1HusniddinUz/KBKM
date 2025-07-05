@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5817bd15.css",
+    "main.js": "/static/js/main.b40d8966.js",
+    "static/media/BrbBackground.mp4": "/static/media/BrbBackground.dfd309a5e9b5e72289bf.mp4",
+    "static/media/yummyberry.png": "/static/media/yummyberry.2f703496e8a173f13916.png",
+    "static/media/RAY POWER.png": "/static/media/RAY POWER.1f839ba6cceb7d6fce88.png",
+    "static/media/revmo-gloves.png": "/static/media/revmo-gloves.aa2a17ea6f152b8b035e.png",
+    "static/media/hh-ecocups.png": "/static/media/hh-ecocups.04ca8babc1932472c91d.png",
+    "static/media/cards1.jpg": "/static/media/cards1.01885eb0bcbc8065a401.jpg",
+    "static/media/About.jpg": "/static/media/About.c962bf6f66d11e77812b.jpg",
+    "static/media/kbkm.png": "/static/media/kbkm.6c1a39df1cfc793d8cd9.png",
+    "index.html": "/index.html",
+    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
+    "main.5817bd15.css.map": "/static/css/main.5817bd15.css.map",
+    "main.b40d8966.js.map": "/static/js/main.b40d8966.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5817bd15.css",
+    "static/js/main.b40d8966.js"
+  ]
+}
