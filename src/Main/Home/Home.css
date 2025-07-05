@@ -17,9 +17,15 @@
     width: 100%;
     margin: 0 auto;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
 }
-
+.Categories
+{
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+    padding: 10px 0px;
+}
 .main_product_card {
     width: 100%;
     display: flex;
